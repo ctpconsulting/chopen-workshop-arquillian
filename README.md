@@ -22,3 +22,24 @@ During this workshop you will learn how to leverage the [Arquillian](http://arqu
 * testing the entire web application from the end user perspective using WebDriver and the Page Objects pattern combined with Arquillian Drone which makes development of functional tests using Selenium/WebDriver a breeze.
 
 But what’s more important, how to keep you focused on writing the tests and not worrying about all the burden and boilerplate around. No more custom scripts or copy-paste Maven configurations. No more full builds. Regardless of how complex it becomes, executing an Arquillian test is as simple as selecting “Run Test” in the IDE or executing the “test” goal from the build tool.
+
+### Virtual Machine
+
+Software Development Environment for workshop is based on Ubuntu 12.04 64bit, with following components pre-installed
+* JDK 6 & 7
+* Maven 3.0.4 with command line autocompletion and output coloring
+* Eclipse 3.7 with following plugins
+  * JBoss Tools 3.3
+  * Maven integration
+  * Groovy Support
+  * JUnit & TestNG
+  * AnyEdit
+* JBoss Forge
+* MySQL 5.5
+* JBoss AS 4.2.3.GA, 5.1.0.GA, 7.0.2.Final, 7.1.1.Final
+
+Credentials:
+username: arq
+password: letmein
+
+OVA image is available under [following location](http://images.workshoptage.ch/images/ws15/).
