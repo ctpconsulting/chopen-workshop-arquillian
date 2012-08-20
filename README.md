@@ -39,7 +39,7 @@ Software Development Environment for workshop is based on Ubuntu 12.04 64bit, wi
 * JBoss AS 4.2.3.GA, 5.1.0.GA, 7.0.2.Final, 7.1.1.Final
 
 Credentials:
-username: arq
-password: letmein
+* username: arq
+* password: letmein
 
 OVA image is available under [following location](http://images.workshoptage.ch/images/ws15/).
