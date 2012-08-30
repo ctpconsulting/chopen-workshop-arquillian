@@ -23,6 +23,18 @@ During this workshop you will learn how to leverage the [Arquillian](http://arqu
 
 But what’s more important, how to keep you focused on writing the tests and not worrying about all the burden and boilerplate around. No more custom scripts or copy-paste Maven configurations. No more full builds. Regardless of how complex it becomes, executing an Arquillian test is as simple as selecting “Run Test” in the IDE or executing the “test” goal from the build tool.
 
+### Labs
+
+We prepared hands-on labs where you can learn Arquillian by playing around. 
+
+* [Lab 02 - Getting to know Ike](https://github.com/ctpconsulting/chopen-workshop-arquillian/blob/master/lab02/README.md)
+* [Lab 03 - Into the world of containers](https://github.com/ctpconsulting/chopen-workshop-arquillian/blob/master/lab03/README.md)
+* [Lab 04 - Walking Skeleton](https://github.com/ctpconsulting/chopen-workshop-arquillian/blob/master/lab04/README.md)
+* [Lab 05 - Going into the details](https://github.com/ctpconsulting/chopen-workshop-arquillian/blob/master/lab05/README.md)
+* [Lab 06 - Beyond the limits](https://github.com/ctpconsulting/chopen-workshop-arquillian/blob/master/lab06/README.md)
+
+Each exercise will be preceded by detailed explanation of each concept so you won't be lost in action. In worst case you can always look into provided solutions :)
+
 ### Virtual Machine
 
 Software Development Environment for workshop is based on Ubuntu 12.04 64bit, with following components pre-installed
