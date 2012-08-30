@@ -26,7 +26,7 @@ You will need to make another acceptance test passing
                         .shouldCosts(765)
                         .shouldBeFrom("Brew Dog")
                         .shouldHaveAlcoholPercentageOf(55)
-   }
+    }
 
 Here are the steps:
 * Implement new Page Object `BeerDetailsPage` which will encapsulate web elements from the web site and expose Beer details as [simple POJO](https://github.com/ctpconsulting/chopen-workshop-arquillian/blob/master/lab05/web/src/test/java/ch/open/arquillian/lab05/ui/web/Beer.java)
