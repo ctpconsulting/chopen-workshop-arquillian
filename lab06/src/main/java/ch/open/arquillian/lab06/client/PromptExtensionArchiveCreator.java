@@ -8,8 +8,8 @@ import org.jboss.shrinkwrap.api.spec.JavaArchive;
 public class PromptExtensionArchiveCreator implements AuxiliaryArchiveAppender {
     @Override
     public Archive<?> createAuxiliaryArchive() {
-        return ShrinkWrap.create(JavaArchive.class, "arquillian-ch-open-hello-extension.jar")
-                          .addManifest();
+        return ShrinkWrap.create(JavaArchive.class, "arquillian-ch-open-prompter-extension.jar")
+                         .addManifest();
     }
 
 }
