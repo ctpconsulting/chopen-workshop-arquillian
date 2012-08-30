@@ -104,7 +104,6 @@
         <dependency>
             <groupId>org.easytesting</groupId>
             <artifactId>fest-assert</artifactId>
-            <version>1.4</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -130,13 +129,6 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>org.jboss.spec</groupId>
-            <artifactId>jboss-javaee-web-6.0</artifactId>
-            <type>pom</type>
-            <scope>test</scope>
-        </dependency>
-        
     </dependencies>
 
      <profiles>
@@ -284,5 +276,5 @@
       </build>
     </profile>
   </profiles>
-  
+
 </project>
