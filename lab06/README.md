@@ -2,8 +2,8 @@
 
 ### Objectives
 
-In this installement we will dive into the most appealing part of Arquillian ecosystem - its' extension mechanism. 
-We will create simple extension which will intercept test execution and log messages in the console before and/or after the test.
+In this installement we will dive into the most appealing part of the Arquillian ecosystem - its extension mechanism. 
+We will create a simple extension which will intercept test executions and log messages in the console before and/or after the test.
 
 You will have a chance to explore and understand:
 * Available SPIs.
@@ -14,7 +14,7 @@ You will have a chance to explore and understand:
 
 ### Task
 
-We introduced `@Prompt` annotation which can be used for the test and have two parameters.
+We introduced the `@Prompt` annotation which can be used for the test and have two parameters.
 
     @RunWith(Arquillian.class)   
     public class FluidOuncesConverterTest {
@@ -44,9 +44,9 @@ We introduced `@Prompt` annotation which can be used for the test and have two p
 	     }
 	 }
 
-The goal is to finish provided extension skeleton and log messages specified in `@Prompt` annotation. 
+The goal is to finish the provided extension skeleton and log messages specified in the `@Prompt` annotation. 
 
 All you need to do is:
-* Implement observer which will extract information from the test method and log it.
-* Register it as a part of [`PromptRemoteExtension`](https://github.com/ctpconsulting/chopen-workshop-arquillian/blob/master/lab06/src/main/java/ch/open/arquillian/lab06/container/PromptRemoteExtension.java)
-* [Prepare extension deployment](https://github.com/ctpconsulting/chopen-workshop-arquillian/blob/master/lab06/src/main/java/ch/open/arquillian/lab06/client/PromptExtensionArchiveCreator.java) by adding all classes required in runtime.
+* Implement the observer which will extract information from the test method and log it.
+* Register it as a part of the [`PromptRemoteExtension`](https://github.com/ctpconsulting/chopen-workshop-arquillian/blob/master/lab06/src/main/java/ch/open/arquillian/lab06/container/PromptRemoteExtension.java)
+* [Prepare extension deployment](https://github.com/ctpconsulting/chopen-workshop-arquillian/blob/master/lab06/src/main/java/ch/open/arquillian/lab06/client/PromptExtensionArchiveCreator.java) by adding all classes required at runtime.
