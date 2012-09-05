@@ -27,13 +27,14 @@ But what’s more important, how to keep you focused on writing the tests and no
 
 We prepared hands-on labs where you can learn Arquillian by playing around. 
 
+* [Lab 01 - Getting ready with Arquillian](https://github.com/ctpconsulting/chopen-workshop-arquillian/blob/master/lab01/README.md)
 * [Lab 02 - Getting to know Ike](https://github.com/ctpconsulting/chopen-workshop-arquillian/blob/master/lab02/README.md)
 * [Lab 03 - Into the world of containers](https://github.com/ctpconsulting/chopen-workshop-arquillian/blob/master/lab03/README.md)
 * [Lab 04 - Walking Skeleton](https://github.com/ctpconsulting/chopen-workshop-arquillian/blob/master/lab04/README.md)
 * [Lab 05 - Going into the details](https://github.com/ctpconsulting/chopen-workshop-arquillian/blob/master/lab05/README.md)
 * [Lab 06 - Beyond the limits](https://github.com/ctpconsulting/chopen-workshop-arquillian/blob/master/lab06/README.md)
 
-Each exercise will be preceded by detailed explanation of each concept so you won't be lost in action. In worst case you can always look into provided solutions :)
+Each exercise will be preceded by detailed explanation of each concept so you won't be lost in action. In worst case you can always look into the provided solutions :)
 
 ### Virtual Machine
 
