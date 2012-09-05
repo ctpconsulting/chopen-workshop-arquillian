@@ -34,11 +34,11 @@ public class BeerAdvisorPage {
      */
     public Beer detailsOf(String beerName) {
         // TODO Lab 5
-        // 1. Implement page object encapsulating details page - BeerDetailsPage
-        // 2. Find link by beer name
-        // 3. Click on it
+        // 1. Implement page object encapsulating details page - BeerDetailsPage - similar to this POJO
+        // 2. Find link by beer name (can be done using XPath)
+        // 3. Click on the link to open new web site
         // 4. Create instance of BeerDetailsPage by passing driver instance to it
-        // 5. Extract Beer instance with corresponding details using BeerDetailsPage
+        // 5. Extract Beer instance with corresponding details from BeerDetailsPage ()
         return null;
     }
 
