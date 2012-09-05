@@ -1,4 +1,4 @@
-## Lab 03 - Getting to know Ike
+## Lab 03 - Into the world of containers
 
 ### Objectives
 The goal of this lab is to demonstrate three different concepts of containers in the Arquillian ecosystem:
