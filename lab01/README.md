@@ -4,7 +4,7 @@
 
 During this lab you will learn:
 
-* How to create a project with Forge
+* How to create a project with [Forge](http://forge.jboss.org/)
 * Add Arquillian to a project using Forge
 * Create an Arquillian Test
 
