@@ -1,6 +1,7 @@
 package ch.open.arquillian.lab04.service;
 
 import java.math.BigDecimal;
+import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -15,7 +16,7 @@ import ch.open.arquillian.lab04.domain.Type;
 @RequestScoped
 public class BeerService {
 
-    public Set<Beer> fetchAll() {
+    public Collection<Beer> fetchAll() {
         final Set<Beer> beers = new HashSet<Beer>();
 
         Beer mocnyFull = BeerBuilder.create().named("Mocny Full")

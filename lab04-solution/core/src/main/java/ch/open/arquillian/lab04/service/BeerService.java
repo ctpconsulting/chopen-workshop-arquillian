@@ -1,6 +1,6 @@
 package ch.open.arquillian.lab04.service;
 
-import java.util.Set;
+import java.util.Collection;
 
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
@@ -18,7 +18,7 @@ public class BeerService {
         return beerRepository.getById(id);
     }
 
-    public Set<Beer> fetchAll() {
+    public Collection<Beer> fetchAll() {
         return beerRepository.fetchAll();
     }
 

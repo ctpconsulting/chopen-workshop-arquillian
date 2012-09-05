@@ -1,5 +1,6 @@
 package ch.open.arquillian.lab04.repository;
 
+import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -24,7 +25,7 @@ public class JpaBeerRepository implements BeerRepository {
     }
 
     @Override
-    public Set<Beer> fetchAll() {
+    public Collection<Beer> fetchAll() {
         CriteriaBuilder criteriaBuilder = em.getCriteriaBuilder();
         CriteriaQuery<Beer> query = criteriaBuilder.createQuery(Beer.class);
         Root<Beer> from = query.from(Beer.class);

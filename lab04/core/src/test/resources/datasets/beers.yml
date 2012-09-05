@@ -1,0 +1,12 @@
+Brewery:
+  - id: 1
+    country: POLAND
+    name: "Kiepski Browar"
+Beer:
+  - id: 1
+    alcohol: 4.5
+    name: "Mocny Full"
+    price: 1.0
+    type: LAGER
+    code: mocny_full
+    brewery_id: 1

@@ -2,7 +2,7 @@ package ch.open.arquillian.lab04.service;
 
 import static org.fest.assertions.Assertions.assertThat;
 
-import java.util.Set;
+import java.util.Collection;
 
 import javax.inject.Inject;
 
@@ -18,7 +18,6 @@ import org.junit.runner.RunWith;
 
 import ch.open.arquillian.lab04.domain.Beer;
 import ch.open.arquillian.lab04.repository.BeerRepository;
-import ch.open.arquillian.lab04.service.BeerService;
 
 @RunWith(Arquillian.class)
 public class BeerServiceTest
@@ -46,7 +45,7 @@ public class BeerServiceTest
       int expectedAmountOfBeers = 7;
 
       // when
-      Set<Beer> beers = beerService.fetchAll();
+      Collection<Beer> beers = beerService.fetchAll();
 
       // then
       assertThat(beers).hasSize(expectedAmountOfBeers);

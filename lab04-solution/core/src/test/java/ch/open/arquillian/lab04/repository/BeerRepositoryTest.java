@@ -2,7 +2,7 @@ package ch.open.arquillian.lab04.repository;
 
 import static org.fest.assertions.Assertions.assertThat;
 
-import java.util.Set;
+import java.util.Collection;
 
 import javax.inject.Inject;
 
@@ -17,38 +17,34 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import ch.open.arquillian.lab04.domain.Beer;
-import ch.open.arquillian.lab04.repository.BeerRepository;
 
 @RunWith(Arquillian.class)
-public class BeerRepositoryTest
-{
+public class BeerRepositoryTest {
 
-   @Deployment
-   public static Archive<?> createDeployment()
-   {
-      return ShrinkWrap.create(JavaArchive.class, "test.jar")
-                       .addPackage(Beer.class.getPackage())
-                       .addPackage(BeerRepository.class.getPackage())
-                       .addPackages(true, "org.fest")
-                       .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml")
-                       .addAsManifestResource("test-persistence.xml", "persistence.xml");
-   }
+    @Deployment
+    public static Archive<?> createDeployment() {
+        return ShrinkWrap.create(JavaArchive.class, "test.jar")
+                          .addPackage(Beer.class.getPackage())
+                          .addPackage(BeerRepository.class.getPackage())
+                          .addPackages(true, "org.fest")
+                          .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml")
+                          .addAsManifestResource("test-persistence.xml", "persistence.xml");
+    }
 
-   @Inject
-   BeerRepository beerRepository;
+    @Inject
+    BeerRepository beerRepository;
 
-   @Test
-   @UsingDataSet("beers.yml")
-   public void should_find_all_beers() throws Exception
-   {
-      // given
-      int expectedAmountOfBeers = 7;
+    @Test
+    @UsingDataSet("beers.yml")
+    public void should_find_all_beers() throws Exception {
+        // given
+        int expectedAmountOfBeers = 7;
 
-      // when
-      Set<Beer> beers = beerRepository.fetchAll();
+        // when
+        Collection<Beer> beers = beerRepository.fetchAll();
 
-      // then
-      assertThat(beers).hasSize(expectedAmountOfBeers);
-   }
+        // then
+        assertThat(beers).hasSize(expectedAmountOfBeers);
+    }
 
 }
