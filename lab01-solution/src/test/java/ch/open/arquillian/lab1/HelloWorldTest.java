@@ -1,6 +1,7 @@
-package ch.open.lab1;
+package ch.open.arquillian.lab1;
 
-import ch.open.lab1.HelloWorld;
+import ch.open.arquillian.lab1.HelloWorld;
+
 import javax.inject.Inject;
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.junit.Arquillian;
@@ -32,7 +33,8 @@ public class HelloWorldTest
    }
 
    @Test
-   public void should_say_hello() {
+   public void should_say_hello()
+   {
       Assert.assertEquals("Hello ch.open", helloworld.hello("ch.open"));
    }
 }

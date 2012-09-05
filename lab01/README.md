@@ -13,7 +13,7 @@ During this lab you will learn:
 This is a step-by-step tutorial:
 
 * Start Forge with the `forge` command.
-* Create a new project with the `new-project` command. **Tip**: Use tab to see command options, or the Forge `help` command. Use `ch.open.lab1` as top level package.
+* Create a new project with the `new-project` command. **Tip**: Use tab to see command options, or the Forge `help` command. Use `ch.open.arquillian.lab1` as top level package.
 * Add CDI support to your project with the `beans setup` command.
 * The resulting project is already importable into Eclipse (using the Maven import)
 * Install the Forge Arquillian plugin with `forge install-plugin arquillian`
@@ -21,7 +21,7 @@ This is a step-by-step tutorial:
 * Add a `HelloWorld` class to your project (if you don't want to use Eclipse, use the Forge `edit` command):
 
 ```java
-package ch.open.lab1;
+package ch.open.arquillian.lab1;
 
 public class HelloWorld {
 

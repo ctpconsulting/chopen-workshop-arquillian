@@ -1,4 +1,4 @@
-package ch.open.lab1;
+package ch.open.arquillian.lab1;
 
 public class HelloWorld {
 
